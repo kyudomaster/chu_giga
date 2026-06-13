@@ -1,0 +1,229 @@
+(footprint "GY530 ToF Sensor board"
+	(version 20260101)
+	(generator "pcbnew")
+	(generator_version "9.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.205905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eef2f223-6ec3-48d5-b78a-7f6c9eda359b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GY530 ToF Sensor board"
+		(at 0 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d23cb9e8-eec6-4c81-bda3-e58d29ba8675")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b67d7e9-9c0b-42cb-b510-fcbc1121ecbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "516d4ad3-c400-4efa-83a8-52f042cc5b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.426 -1.156)
+		(end 0.426 -3.556)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bbe6cf77-2ca1-40f8-8ca0-e335ed9a25d2")
+	)
+	(fp_line
+		(start 4.826 -3.556)
+		(end 0.426 -3.556)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35dbb478-929c-44bf-b3c9-c5621cd29179")
+	)
+	(fp_line
+		(start 4.826 -3.556)
+		(end 4.826 -1.156)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "05511576-2a2d-4e2c-ab40-f6319cad375e")
+	)
+	(fp_line
+		(start 4.826 -1.156)
+		(end 0.426 -1.156)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e3586a6-ca87-4205-97dd-f69aecc63db3")
+	)
+	(fp_rect
+		(start -5.334 -6.858)
+		(end 5.334 6.858)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f44acc98-cf49-4b8f-b612-b067a8b0b403")
+	)
+	(fp_circle
+		(center -2.794 -4.318)
+		(end -1.016 -4.318)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "87ddc701-4471-447a-b7e3-e686c8b3fd65")
+	)
+	(fp_text user "IR"
+		(at 1.826 -1.656 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6f03f58d-d507-4c6e-9a34-bf3e86ba496a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b0ba762-79bf-4886-aac5-64605326440a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "429fd9ce-9dfa-4de9-941c-b19b43ed5b51")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "9a3f076d-dc51-477c-a749-e7e16242dce7")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "dbcbbae6-9b4d-42e0-9a14-9f184fec6cfb")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "7c7172fd-deba-4a22-91cb-e93316576776")
+	)
+	(pad "5" thru_hole circle
+		(at 1.27 -5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "30e3208d-b040-4642-8d7d-9e14c3cfc89d")
+	)
+	(pad "6" thru_hole circle
+		(at 3.81 -5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "046876a1-3da7-47fc-999b-bf8c2d1f774c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+		(offset
+			(xyz 0.5 0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

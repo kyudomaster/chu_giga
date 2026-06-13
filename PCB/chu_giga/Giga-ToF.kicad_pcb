@@ -1,0 +1,7822 @@
+(kicad_pcb
+	(version 20260101)
+	(generator "pcbnew")
+	(generator_version "9.99")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "06a87cd8-f97c-4181-ae54-a7ba48070f86")
+		(at 134.925 97.675)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R3"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "2951c099-4ed0-458a-8085-1c9aeb3a0390")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "d58b0ac1-7813-43f5-b302-3d79a84a23c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6f36f65-5be7-4df1-9a3d-529ab6163531")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5fc3ff6-24b6-40cd-85a1-9e93554c3b3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4053100-20f9-49f1-966b-a9e2625e8612")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9a3ed07d-5c30-4eeb-b10a-57c0e7db5ad3")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f95188b6-c60b-4b2e-a37e-fd1750d7870c")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "874e6144-4a71-442e-865c-6f4aac09f099")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7d25473c-68dc-4660-baad-ae369a47fe35")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "a99cd3d1-e338-4cbd-aecc-ad584e9f83f5")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_1")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "d0329a4b-7f07-4074-99a6-274b9fe5c496")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "16468848-387a-45b1-9d18-6e8d82ba7447")
+		(at 139.675 112.425)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R14"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "5edbc21e-badf-4c8e-baac-0ab314bffea1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "fdefb96f-e5dd-40cf-9b06-4fded70627a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ed286df-462c-40f9-b09c-ffceb268d852")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31934017-e54b-4ce4-b172-c61009326473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "803f5fd3-f1fe-4e1c-a2be-990723d0dd25")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "583c1a51-fa9a-416b-b716-29f959656d71")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "62348e6a-571d-4f8e-9f41-12a11040047a")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4265d281-f280-4c75-b61f-1ea549d918da")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0a850df9-6d31-4cdf-8949-e2b164cbf2c6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "91d0be56-a7aa-46ee-9c12-ce7209b6ff77")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_6")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "ecc9fbef-b837-4903-88ca-d298c9a79ce9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "18817a9b-adbb-4076-a90e-fc43498e0c4b")
+		(at 150.1 89.15)
+		(property "Reference" "TOF7"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a9c31c53-f946-4452-8bad-d88dfb5dd651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "180aef9a-14fa-47ef-bf3c-63be803352a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b63a3e4-9947-494a-8dad-aa1a26619cc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76a975b6-f6be-4bd0-a113-c66a2b2a9692")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "67adaee8-1052-4d6b-b2f0-e5ef7a33f509")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ff67e2c4-5a01-4884-aa4a-aa6503e7ac3d")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4b60dfbf-6f91-496a-91a7-1de92588587c")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "98866f61-bc04-428d-abe7-3406f837b6ec")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "fe651364-9c0f-45ad-b5b1-1dcbd5428af2")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6717daca-4a7c-4e40-97e6-8b29a5dab30a")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "bd5aae6b-1bae-44d3-8710-e438a7aedc38")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "37e4dce3-39c3-4cc0-b7fa-90032a5aa86e")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "701bcc0f-1ba8-4c12-8851-e089c27f36ea")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "911090a3-50c2-4c50-ab19-5f89f174060f")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b93d2b6b-6cbf-46d3-9f1c-a731a913926a")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6fc49e84-481a-48d4-a76b-7762bac7895c")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "a48b9241-796b-4cef-94bd-e0018c9ad811")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2f330c55-bc44-4282-a2ed-4f327461745f")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "0b4471f2-18dd-4c2b-9fde-9315d2f3b0e6")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e678f20d-4b80-4655-b7b3-7342bed5d813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ef64b642-2051-4cf4-b782-f70325944ef3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "2932b64c-de90-4c94-a269-2f9e48199276")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 144.8 82.65) (xy 144.8 95.65) (xy 155.4 95.65) (xy 155.4 82.65)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "2db33203-a38a-4b18-bf9f-5d39e356f9e7")
+		(at 150.1 75.05)
+		(property "Reference" "TOF2"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "21ffffb2-c28f-42bb-ace2-3fe4f137c793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "076c69e2-9403-48af-b022-370a978c20d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09c04fc4-edf4-41a5-9435-1450ce2f4ecb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbf59847-fbb8-4755-96e8-0e1f0f54020e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ab8d4643-25af-42fc-921a-b0d968b84c2e")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6d4d8e6c-e5b0-47c5-a251-2e73268a2cde")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "54ca4d9b-9194-494e-985d-c01218e4019a")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f086e530-2419-4b0f-b19f-c936c24a3d22")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ff6d754e-39a0-4a67-99e5-74bb41be6676")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "abfb7a6b-48bf-4f12-8bef-db566c244053")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "712b648e-0910-462c-9261-680194a63606")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "619a13b7-6bc7-4173-bca6-9eae013c48fd")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "47f66390-cd53-4fa1-b736-60058a43e4f9")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "975fea2c-12ce-4e7b-b272-d3636bf77a3c")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9370ec97-7be2-4e25-bd49-0adcf32c5c79")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "405ac5a3-1daa-484f-9088-14c232ff0290")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "500109ab-95fc-4f30-9839-3392b57116a7")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "daabf9e3-fda7-46a3-ada8-636e95af5efe")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2e1d1996-394b-44c3-b3ec-e86aeeb0a362")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ccc93b82-fada-4c78-b677-767bb5522f3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "aed0dea1-3123-4709-8f10-765312a3d508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "60708419-c523-4080-8d22-05105ee4c165")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 144.8 68.55) (xy 144.8 81.55) (xy 155.4 81.55) (xy 155.4 68.55)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "30fb064a-54b0-4e55-b700-3dc79562c3f5")
+		(at 125.25 112.55)
+		(property "Reference" "TOF_PAD6"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ef490aa8-f155-4279-92a1-488b4a8a77cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "79c9f495-3334-4a11-9f05-defce3d4375a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35f10cd7-cf90-4277-8ddb-ff27315236c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "590ca1b0-4c84-4608-b385-cf1d2dbad053")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "27a911d3-e96e-46e2-85c4-323ebbe9d343")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2c642c2d-d63c-4c74-906b-3a55fcce444e")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0845c3be-9567-4629-97f2-73c10fee9d72")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "10fc8e7a-f1dc-415e-9798-27b471891341")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c64690e7-ff10-4180-87bb-b6a3e0dfaa29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e3b52f3f-3762-432f-89f6-982dcabbb80d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2deeff14-d154-42a8-b78f-fbee0a7bd375")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "72063e58-09bd-4b98-92a0-4fcc6373210c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e47e059f-43f2-4c6b-b0f2-929e2032cd55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "fa04582d-d7e7-40c3-abc7-987892a90b71")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "bb2861df-7b5d-4d09-bae0-f5b3dc3c5290")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_6")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "c56cde88-ce5a-4d6f-b5ac-508ee924ef01")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_6")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "2d96afac-3893-4c51-a313-dd3d9bba7f9d")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "93f45cc0-96d2-4b07-a460-6f0f25fa9c96")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 116.05) (xy 118.5 109.05) (xy 132 109.05) (xy 132 116.05)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "3278229f-ba7d-4436-b701-c2f7069a857f")
+		(at 125.25 96.35)
+		(property "Reference" "TOF_PAD4"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8b2b1da6-0543-4709-abf5-cd5438a196c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4f971b5a-6b5a-4075-b7f5-82a3be8ae78f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "518eacff-015e-4aa0-8962-f73012e7c10d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "876c46fe-0a9e-46ba-9065-07e6ef220b7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3106547b-402e-45e9-b644-c1767d77c2f6")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "248d682c-c98f-4319-b1ff-9506de7ba9e1")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "afab1728-fc61-482b-880c-77f4a01f17ba")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0c2a9b20-7606-408d-8683-ebbade303705")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8de0aad3-33a5-4615-bdb8-b0e16b37c327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1c267deb-0173-4979-983d-2c7301cef253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "425174e1-a34c-429f-abe5-25bd6e696e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8846afdf-005b-4ff6-a1d3-4b19c3165da7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cce1c2e7-60db-409b-93ee-adb100d8804c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "a959ba10-bc25-4e2b-8624-659647f82443")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "a73a0306-7bf6-43c4-8fa3-7a9f9db817ae")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_4")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "41dc3bce-16e2-4c22-b2bb-31b0bea7cce4")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_4")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "4b91fbb0-910a-4520-b67a-ea3351f124d6")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "4245bcb0-d76d-4f93-9400-b9148aa15567")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 99.85) (xy 118.5 92.85) (xy 132 92.85) (xy 132 99.85)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "3712cd31-c616-4daf-aef8-39957a5a29cd")
+		(at 144.425 106.525)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R18"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "fd4d3c05-bdc0-4923-8a1b-fc97ca6308e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "8bffd317-b425-48e9-93f2-e5828f8604ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e19c68a-d820-4f63-8e45-64fe17f509be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c3bc974-4ec2-4283-a72d-090e88ec9837")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "293af58e-7dc9-48cd-bec1-32e319c3b7ba")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "da06f000-a068-4a44-8c75-1a2cbb4f8a45")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f9e5e0ae-abf8-4fed-af90-04e0c2248d48")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c2e771cd-b401-4acf-a31c-a7f4a3601962")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "78a40e74-278f-4b3e-b42a-63e63d97abed")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "ef7911a8-d109-4fae-82ac-4628e1af2cdc")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_8")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "613f8a21-c0a1-4483-8b9e-8d6d383d75e4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "3c819d7e-fe2c-4cf2-a79b-0c108c19db47")
+		(at 125.25 80.15)
+		(property "Reference" "TOF_PAD2"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cafa99c9-ad66-4d41-bc26-ce7120e1fc49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c512c052-f055-4672-be15-c59d924d6dec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7003a97c-8d10-4027-a2c1-b2221f7051b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df4b81e2-b44e-4fac-96c7-4a0ecc13a221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "daa6af4b-85f5-43f0-9ee9-1a1e3fa932f7")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ad6418c3-a528-4370-b3b6-ae4d3dcd9f68")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4552a75f-6d6c-44ba-9bff-b3261ea75fa9")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5ccb5643-9989-4113-8cae-119853acdb3e")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f72be2b7-e69f-44b9-b637-aeacae8ba2de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b44f8d64-6e30-4221-814f-c2fdd63c5e43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "627f67ee-6266-420f-a87f-ba6870c27179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a03e1330-0021-4cb9-82e1-b487d6087084")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3dd8e7df-1f5b-4899-bff5-c27c7db5d967")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "92db6ab5-c346-4010-952e-3531ee98ccab")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "4411e4f4-c6e5-440e-9d98-6e31a8cc84fd")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_2")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "a9b60354-0ac2-4050-9bc8-7f6884c42068")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_2")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "366da782-1011-4a71-8de8-3354294bd437")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "547e037b-f1ed-4087-b308-3c72ec9b3199")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 83.65) (xy 118.5 76.65) (xy 132 76.65) (xy 132 83.65)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "43852e41-2208-4ca5-9884-5da993ffe097")
+		(at 144.425 97.675)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R15"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "540a65c8-3a3b-4ec7-acd6-c0fc8589a7a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "05e328bb-82a4-4099-8d1b-bb8c6d1590cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5f77bae-48a5-4725-ab1a-757f90f1e3bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4ebae54-a9a7-4a1d-ba53-7243e721ef67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "45b45a88-7b9f-4065-a144-76ed462d7c55")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd4a3490-7619-463e-bab7-a90c9e44d831")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5455910b-28ad-459b-a67a-fea968d4fc87")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "46517b59-3f7e-4d3d-87a1-58b5eea41850")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "af73459b-1232-4874-ac0b-9946a6a552e5")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "6469a001-0115-4efd-a099-6975ba8a5b10")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_7")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "0b1a56a9-6662-413c-ac58-4a75da9805ff")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "4b303062-65a9-40f0-8bba-cca1d9c4ed7e")
+		(at 139.675 97.675)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R9"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "2168c2a7-a847-404f-ba17-4bc01f218f00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "7be2aa89-1042-447e-9637-acfdb81e8012")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fc07cec-fff0-4dd6-ba24-16a71ad3e1c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4466a40d-2ab0-4f2b-a3ca-7d53417fe9bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "296b6d79-ce1e-479d-bb4f-238c16575106")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "127f1e69-4114-462c-b19a-5e21d4c6c7a1")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "187d1887-6945-41ce-a66f-292832cefadb")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7abad4ff-f566-4e2f-b0ff-ed41bf8478ca")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0f40792e-8ec4-4f80-86da-54e59072a412")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "8e550bc4-8fce-4fd3-92fd-4210ed18eddc")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_4")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "60420699-a59e-43c6-8560-89edd905e9e3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "509d57bd-d84a-4a93-9fe1-da019277d5ca")
+		(at 144.425 100.625)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R16"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "e907c718-2d97-4c5d-b68b-0d6210c6cac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "ef5ef4f5-f762-4534-8e3f-2cc6a27ad81a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a90a3feb-d8c7-4836-bed1-24b99e701d04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb710046-c041-4fc9-bccb-477f755b0fcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b120ca96-83dd-40b2-a5d8-4aeaa03b59cb")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c615ac94-0305-46db-be8b-d25a5d066ec6")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0faaa451-673c-4f85-b6b3-e9c11f257718")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "05f6b790-240e-4ed8-baea-afae9b87922c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d3a95a06-01b1-4b0a-9017-ed5a917c0886")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "6102f0a8-7481-4bee-950a-619277cb51c3")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_7")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "17808cab-7336-4b1d-8ed7-59683be4b908")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "5ce6b32d-f7b7-4c15-847f-de4584e20ab1")
+		(at 185.2 75.05)
+		(property "Reference" "TOF5"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9f06e895-de44-4bc4-bbce-8ae442e91fb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d5c4e512-9b08-4e88-b5f0-a6b9d75b694d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "575b7dfc-5bfe-4ab2-a820-72906311e831")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72b6f5f2-4947-4969-b2f9-82eb793e013d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9e311f4c-73a2-407e-989a-dffeb65458e2")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7b3e318c-b864-456a-85ed-f968239d79c5")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c8df7f9b-c430-4057-a4f0-5af633f82bae")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5134f2b6-726f-413e-8ab4-15dd48dd12d8")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e448c81b-d4a8-4be8-8754-e35776228145")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "461836a0-0431-427e-91f1-4ed984c62fe6")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "63e7ee5e-03a1-4505-ad35-15c105747680")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5c3d6373-cbfe-4e18-a337-2632132b3f84")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3a9cf045-ee0f-48e5-a098-5c2f7b288544")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4598da9b-cb9b-418b-953d-0433bff41292")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "94827d8a-a417-4e87-8fd5-7d03242a6800")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "f1d04225-9519-4b70-b415-bf3652d194b9")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "020b9842-afb8-4dd3-a98d-810eb0bf865c")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "350e39cc-5a20-425a-917b-45f11ca5a06a")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "42cebbea-4aed-4bb8-98ed-09c49196476c")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "31df9bd6-d01c-44b8-9266-2bf625748b30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8c9ed8e6-5d3a-4468-b06a-6988ba173850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "758c829f-3a3b-4f94-8433-5bd1eabf7a0f")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 179.9 68.55) (xy 179.9 81.55) (xy 190.5 81.55) (xy 190.5 68.55)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "6814a6e0-16a6-4e0b-b4c2-7f275f72c0c9")
+		(at 125.25 104.45)
+		(property "Reference" "TOF_PAD5"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2853363b-28cd-4b14-b4f2-b7d24909f52d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "db034e18-0daa-4a93-be08-45fee3d715e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfbb4b71-1bd6-4ff7-a9c8-10617bf20cf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd86e7da-08cb-41d6-9927-56ca048e645a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "33a9effa-b611-4fe1-8619-5fde9263401a")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e7534c20-058c-4e8d-b2ee-8a4afeeb7900")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8f56e103-ca02-4a98-8de7-004529d2a75f")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ca905153-5ae8-44b8-b3d0-5777315876e9")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5fda6998-3016-4cbd-8145-8538b4e17e75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c0aba74b-bfc4-4f5e-9feb-088211bca67a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ddb9cc77-3e2b-4433-aae7-18ec7850f36e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9840e0fe-8ab3-495c-9b1d-af8e0f9dce04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "377e240d-e740-40e5-a106-3279ff965ac9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "e962d113-7018-4e46-a661-de3030eba84c")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "6a88a017-0ecb-495d-a4fb-dd5c8218b3b4")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_5")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "22153fd1-bb8b-4b66-9db1-07d9346cb61d")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_5")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "b3465477-9053-4a97-9ac9-87b05706a286")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "160c2f0f-7009-48bc-b5ea-f8bdd4f2908e")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 107.95) (xy 118.5 100.95) (xy 132 100.95) (xy 132 107.95)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "6a7c13f8-8f8c-4c28-9da4-013352b19544")
+		(at 134.925 112.425)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R8"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "0a10ebf6-ac24-4f85-ab50-972b498c2087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "8e2fb2df-2e99-436a-9f53-38b939b05905")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9515d8fa-cf10-495c-8793-3fe5db92e79d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "831b8e10-31c7-45c1-baaf-ff3270e165e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "03b58dcd-6bee-4a2b-a7d0-fd708b482969")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4d2c18e-f74f-4359-89d8-fe5adb8d8b83")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a95b1a8d-8266-4cc0-8c8c-2ec13a75b63a")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f6bb2f03-81ef-44ce-97d9-cc429ea83ba5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "15532a98-3244-4d18-9dd9-99fe5241c224")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "d72d8dea-8df9-404e-ba1e-2998f4baa9ad")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "6602bb20-dace-407c-8745-47a06f57041c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "778db283-ea6a-4cb1-aa6c-18f6ffae69f4")
+		(at 139.675 106.525)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R12"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "98d8c772-741f-4f77-a47a-481a477f1412")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "5374288c-9c94-4c6d-a982-ffe5afdaf381")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62aef2fd-2a4a-4588-a166-6a8a325ede00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef3fcd64-6166-4d68-8fdf-5e5de9628079")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f95ee6b1-cbd8-4bd0-b43d-0a81b2c66834")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3d36f659-7ec3-40b8-ae24-cdfc9d786619")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b8992473-c933-45d0-a557-0363b60f01da")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "6117c6e3-6781-408f-b33c-29895f16141e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0a8c2623-23cd-4f58-ba3d-4d96fab48610")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "fd96dd09-baa3-4a5a-8241-de62ad5ede27")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_5")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "527128d0-d050-497c-858d-8232e22e0743")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "798840ef-59a8-41c9-8ff5-16ffe1ff9738")
+		(at 144.425 103.575)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R17"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "b69d1b5f-0f5b-4136-9fb2-ab921c7c7a2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "187bdfee-5683-463f-b5aa-76278ee635ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c295330f-bfaf-4670-a594-09013623ddb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb376818-42ee-411a-8d32-df9d179a9941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83948d87-8d44-4394-9b21-e3e532ca5776")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "10a8ce30-3b4d-452e-9780-f5da67c7ccdd")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "20d504f3-19b2-4c3b-957d-c849b613cb8a")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5e9e7d27-c7f9-4537-b809-3a5599692a66")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c2b864b2-f752-430b-a8e8-024500006dbc")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "b8c20ae5-df0e-47a4-a90d-3925114fed0b")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_8")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "c17fd0a1-fc59-4cad-beb9-53a4858885db")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "8132fbf9-5eeb-4aa8-a035-66d0487410d9")
+		(at 139.675 103.575)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R11"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "8d1b0ff4-c747-4168-b5e9-705ce92618ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "9f9b5a59-a48f-4c61-91a9-cfc8338432c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44178a90-5340-4256-aac3-223a84eec5da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5844e57d-47ed-46e2-91b0-4adf047e2cac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "45cfa9e2-9fe3-46dc-a337-8847a2f47ba6")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ec599cf9-1402-4691-a9df-7123827ae871")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8d6a151a-c001-4f19-806b-5c4252326ad8")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "82667d79-3ac8-4dd3-a82d-e918e0e0824a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9c73e553-f292-4abd-a7df-7e2d37add903")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "f8955e80-d59e-43a2-9ce7-1fe4ddbf92aa")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_5")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "0ca1eeef-d14d-4398-a5eb-e7e55136c127")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "86397eac-8398-46fa-99f3-727550f89cb3")
+		(at 125.25 72.05)
+		(property "Reference" "TOF_PAD1"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e246a2ce-dc16-43f6-851b-b4b2faf04561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "82c43c08-b0e3-4872-ad60-e6949b3679cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a85858-707b-4487-8133-7bdcec3839c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99f3368f-0a76-4727-99b9-259fc87bfe55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f7eb3b13-12b8-492f-a13a-ed9d66d946a1")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "117a9870-3450-4f55-b214-33b857187d39")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "20abf0c2-f98e-4588-94c2-48a99bf6fc2e")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0b0b9121-883b-45ac-bf79-260ac7f05d9f")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9993ef98-ad4f-4e0c-8e29-aa48938f0d90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5db20a94-5b90-47e0-a76c-b400fbfec5c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d1de3a8c-84fe-4561-b5f3-30348dbe26ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e8f1aa47-466c-44f0-ba37-e7e1915cd132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c2bfe95f-9f39-4c42-bcaa-eafdbde43b58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "1d0b127a-e613-4d5e-9d6a-a08a102a9a74")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "ec094ea5-2a3e-484d-bf46-3e5596e6c834")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_1")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "5a314184-0e4f-4b3a-a3c0-c8e09345e42f")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_1")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "69a1f78a-266e-445f-be20-5b5050f26670")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "844b6c8b-2e25-4519-9f64-f762201ad989")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 75.55) (xy 118.5 68.55) (xy 132 68.55) (xy 132 75.55)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "90dbf54b-c2ab-49b2-9850-bc4da78a6f37")
+		(at 125.25 128.75)
+		(property "Reference" "TOF_PAD8"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9dfd07a3-e1a2-4290-8943-1b53d3e553b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e5b8e5c0-7d9d-4215-89dc-58c8432cd34f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daf5f988-626d-443c-aff7-9fba15b53c51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad809fb9-3e53-4fb1-a1ac-195ac70095ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "45797a8c-29b8-4c23-8a66-7d0b9c113364")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "adafe4c3-03a7-471c-88d4-d27fb570c03d")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6435e249-985c-48b2-a019-a40753f31755")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "187294ea-dff2-4826-98de-c68343aa0fb0")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ad590288-c4a7-41bd-a74f-2fec9c91307d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a71f6ad1-ad85-4885-b2ce-ef3e72dbf9f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "873c6989-b942-4312-a6c1-5e5b299ca92c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f0c69c85-2453-4b64-a0f0-d273531eed54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0c8d0c04-69b6-4e68-a0e2-c5b5e7b54949")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "f0bbd89f-2c7c-495e-baec-947f5773ef47")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "8203a8e4-31c1-49ed-98bc-fef167b30d49")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_8")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "10d738bb-0849-4a9b-b2f0-421c2a5200b6")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_8")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "54742fa7-8488-4e9f-9ff9-0b56375ead15")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "3d6cb7df-b7ba-45fc-8bd8-1e953686ce39")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 132.25) (xy 118.5 125.25) (xy 132 125.25) (xy 132 132.25)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "926c8eb3-3fd6-4d81-bbcd-1ec8976a6442")
+		(at 139.675 109.475)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R13"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "d0283106-283e-48b1-b014-964286fad224")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "6b98985e-1ff2-4b95-afb6-b6d194caf340")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ec55065-9eca-4b4f-b474-4e2e246acbc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e07671f4-604f-45ba-8459-f00fa5d9f1f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c6ef25b-a084-442f-9a2a-77b5d2dab901")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4f8729cb-2039-49ec-81d4-7d4e553efc73")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e3a8d61a-9d48-4bfa-9f54-9592ba954a5c")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d98bcdd9-ea0d-42c9-a5ca-52c3b2f9e85b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "16887c09-886c-4a95-a5c6-1e92651386f1")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "032c4281-c750-45f9-9c7d-8902cae4e75d")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_6")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "a8d73b0b-0881-4b8b-be5e-0d21fcd16c84")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SamacSys_Parts:17754695"
+		(layer "F.Cu")
+		(uuid "933bf7f0-eab7-459d-991f-729cf2154bcf")
+		(at 155.45 102.863)
+		(descr "1775469-5-2")
+		(tags "Connector")
+		(property "Reference" "J2"
+			(at 0 -0.001 0)
+			(layer "F.SilkS")
+			(uuid "2d9bb06e-f8e6-4de2-8b19-336960ccba0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 0 -0.001 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "63a2bb61-7096-4ed9-81aa-985b2619c205")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30603a13-b816-4108-9550-eaa65e1c1aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e46f8cfa-d406-42ea-813c-aa4f37daea6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.7 -5.113)
+			(end 6.7 -5.113)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "07f9aed0-3e8b-4a6b-8ab3-164cbdc6d0d4")
+		)
+		(fp_line
+			(start -6.7 -4.513)
+			(end -6.7 -5.113)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "242570f6-8e21-4d14-be21-e5c0c30d4cbe")
+		)
+		(fp_line
+			(start -6.7 -0.113)
+			(end -6.7 2.487)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6961c4cb-461d-4103-b621-496a9b75ad3b")
+		)
+		(fp_line
+			(start -6.7 2.487)
+			(end -5 2.487)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f27b6fe6-24c5-4933-ba20-03463ad79d39")
+		)
+		(fp_line
+			(start -4 5.5)
+			(end -4 5.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "56607a61-a06e-44ac-98f9-de6032a41111")
+		)
+		(fp_line
+			(start -4 5.6)
+			(end -4 5.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f46c380-5420-45a1-b8d3-aabcec50b546")
+		)
+		(fp_line
+			(start 6.7 -5.113)
+			(end 6.7 -4.513)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f2084d8c-410f-48ec-80b2-e27c12099e00")
+		)
+		(fp_line
+			(start 6.7 -0.313)
+			(end 6.7 2.487)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70d02ec5-14fb-4903-82b6-0b823cedf44c")
+		)
+		(fp_line
+			(start 6.7 2.487)
+			(end 5 2.487)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "677bb12a-f531-403d-8b99-57c7175cc9b8")
+		)
+		(fp_arc
+			(start -4 5.5)
+			(mid -3.95 5.55)
+			(end -4 5.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8466da2b-a2bb-446d-a497-6d4025721007")
+		)
+		(fp_arc
+			(start -4 5.6)
+			(mid -4.05 5.55)
+			(end -4 5.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cdf7f7e0-c42c-4b90-b385-b4fed16184d4")
+		)
+		(fp_line
+			(start -8.1 -6.113)
+			(end 8.1 -6.113)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8bab1a85-7e8d-4317-a9bc-7bee9077f666")
+		)
+		(fp_line
+			(start -8.1 6.112)
+			(end -8.1 -6.113)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8b04a968-4950-4638-a034-67321720c371")
+		)
+		(fp_line
+			(start 8.1 -6.113)
+			(end 8.1 6.112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da2d2cb2-78c9-4b3f-be1b-765a0bb5630e")
+		)
+		(fp_line
+			(start 8.1 6.112)
+			(end -8.1 6.112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3be4c70e-98b2-49bb-8654-9aac994a6200")
+		)
+		(fp_line
+			(start -6.7 -5.113)
+			(end 6.7 -5.113)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75c786f4-a9d7-4c2f-8be6-c13db6dfcb31")
+		)
+		(fp_line
+			(start -6.7 2.487)
+			(end -6.7 -5.113)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb9a4e7a-dfe2-4e96-8c1f-6b968f55d0f4")
+		)
+		(fp_line
+			(start 6.7 -5.113)
+			(end 6.7 2.487)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de0d4f41-5b3b-4532-a0f1-1674ff86a9ec")
+		)
+		(fp_line
+			(start 6.7 2.487)
+			(end -6.7 2.487)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c7fad599-fb87-487e-805c-9b627a50da53")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.001 0)
+			(layer "F.Fab")
+			(uuid "c593df10-8a47-49d0-9cbe-97f9a7a08181")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4 3.362)
+			(size 1 3.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+3V3")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "b4d873a7-ea94-4aa5-93d7-c6e0ece1411f")
+		)
+		(pad "2" smd rect
+			(at -2 3.362)
+			(size 1 3.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "8151f8e8-c22a-4d44-815a-c4164ef0857b")
+		)
+		(pad "3" smd rect
+			(at 0 3.362)
+			(size 1 3.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Controller/SCL")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "da86118d-ed8d-4ff5-b80c-439a9ddd484a")
+		)
+		(pad "4" smd rect
+			(at 2 3.362)
+			(size 1 3.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Controller/SDA")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "397858c9-9d2d-497c-bd3f-5c5225a53596")
+		)
+		(pad "5" smd rect
+			(at 4 3.362)
+			(size 1 3.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Controller/ToF_Reset")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "1f5c46e7-54cf-4aac-b2a4-48e2e9cd1632")
+		)
+		(pad "6" smd rect
+			(at -6.35 -2.388)
+			(size 1.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "611cb254-e910-421c-bf03-9a7af469242d")
+		)
+		(pad "7" smd rect
+			(at 6.35 -2.388)
+			(size 1.5 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "bf194eef-66c9-4040-bfc9-f8a7b982d3eb")
+		)
+		(embedded_fonts no)
+		(model "G:\\Documenten (niet games)\\Chunithm Controller\\chu_giga\\PCB\\chu_giga\\Extra Symbols\\SamacSys_Parts.3dshapes\\1775469-5.stp"
+			(offset
+				(xyz 0 4.300000126 2.849999862)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "b7a7cb9d-0ae0-4ed6-ade5-83ad35f7308e")
+		(at 138.4 89.15)
+		(property "Reference" "TOF6"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0f4dc1c2-c916-4e7e-9618-86f22c6e7871")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b10ee181-9997-48f3-b6cb-3bd7b3996a29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abdb38a1-e1dd-41cd-b8b8-d81637852f68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba54a4cc-384a-411c-8a5b-3c9206d14aa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3db58504-bbda-4db2-a2b4-65dd2201a2d1")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b5ea6c7d-07f1-4ac9-8157-3bb2c6d7af16")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e2b6172f-dfac-40ef-a30a-0721208b3b53")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8b048768-f68a-497e-b2de-76d738e98522")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b3f7f5f7-885e-44e6-a54e-7cdc8a55969c")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4c9afb4d-973f-4a70-814d-832b961325bd")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "1098b2d6-9962-4a8b-9f66-0eade9a42dbb")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f784ef72-a170-4ed4-9e88-bbe1be13f06c")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "27d58086-5a0b-4692-aa0a-1b58789224c6")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "85e332ad-df53-4258-99f4-c43cd89a8be5")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "48e52d0f-9431-468c-bc30-951c2e82897b")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "87e144bd-d109-4ae8-aef9-19a89552f48d")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e92f093c-42ce-462d-9ce0-dbdd7dc9e002")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "84b4aace-6175-4958-824f-43b9edaec57c")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3aea3a72-bf29-4fd0-a752-018fdb7d85a7")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fe2b9e65-9efa-4b0b-a575-17b1bc283da1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6c946d80-c074-4cdb-bb5c-62f6ceb97bf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "039a54d3-5f02-448a-9023-2d4576f48a1e")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 133.1 82.65) (xy 133.1 95.65) (xy 143.7 95.65) (xy 143.7 82.65)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "SamacSys_Parts:SOP65P640X120-24N"
+		(layer "F.Cu")
+		(uuid "bd108bbb-878f-4ca2-890f-4512cbe60012")
+		(at 151.25 114.27)
+		(descr "PW0024A")
+		(tags "Integrated Circuit")
+		(property "Reference" "U2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "d749582a-4e19-4396-94b4-0f088032bc4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "TCA9548APWR"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f33bdf34-0dab-416c-b907-13e0a0263e4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9548a.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56367a04-be59-4d55-aae4-febfdd62f2d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low voltage 8-channel I2C switch with reset, TSSOP-24"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f623c17e-d5ca-49ac-9b96-7b3bcb0b5689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "TSSOP*4.4x7.8mm*P0.65mm*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.675 -4.15)
+			(end -2.2 -4.15)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "40c72648-ac6a-42cb-9bd7-a0ed9ce38930")
+		)
+		(fp_line
+			(start -1.85 -3.9)
+			(end 1.85 -3.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39e21753-68b2-4929-8647-c6787553bb7e")
+		)
+		(fp_line
+			(start -1.85 3.9)
+			(end -1.85 -3.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "efe49d69-1229-4604-8011-3a82ff74fb17")
+		)
+		(fp_line
+			(start 1.85 -3.9)
+			(end 1.85 3.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d0e30751-e3a5-4c2a-92fe-c6d0e1393172")
+		)
+		(fp_line
+			(start 1.85 3.9)
+			(end -1.85 3.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a7ff7d9b-a07f-4811-8bb2-cb9f7fb7a929")
+		)
+		(fp_line
+			(start -3.925 -4.2)
+			(end 3.925 -4.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4e04e0de-3541-4015-afb0-20ff3480596d")
+		)
+		(fp_line
+			(start -3.925 4.2)
+			(end -3.925 -4.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d618e963-27b3-4c24-b4ec-aabb17d2ae8a")
+		)
+		(fp_line
+			(start 3.925 -4.2)
+			(end 3.925 4.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2e244d3d-c74d-48f6-8a34-195ed4daed65")
+		)
+		(fp_line
+			(start 3.925 4.2)
+			(end -3.925 4.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0338b25f-458c-47d3-b62f-047b207fd133")
+		)
+		(fp_line
+			(start -2.2 -3.9)
+			(end 2.2 -3.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07730704-53da-4774-8be7-785a1dbec7ba")
+		)
+		(fp_line
+			(start -2.2 -3.25)
+			(end -1.55 -3.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4420ad19-c1da-4845-89ab-b23419727672")
+		)
+		(fp_line
+			(start -2.2 3.9)
+			(end -2.2 -3.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25606f1a-bff4-4399-8350-c3b7c66a0a71")
+		)
+		(fp_line
+			(start 2.2 -3.9)
+			(end 2.2 3.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20200038-e32e-4690-87de-79eeaa12e08b")
+		)
+		(fp_line
+			(start 2.2 3.9)
+			(end -2.2 3.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "858e1833-12e1-4e39-81e8-f126281ac431")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "496465ca-6695-463b-9188-76011e414c8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.938 -3.575 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "A0_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "bcc46144-4c94-4e81-b15c-f6f327a7c67f")
+		)
+		(pad "2" smd rect
+			(at -2.938 -2.925 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "A1_2")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "0f3272ba-f688-4b35-b9b2-1479b903ecae")
+		)
+		(pad "3" smd rect
+			(at -2.938 -2.275 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Controller/ToF_Reset")
+			(pinfunction "~{RESET}_3")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "283cdee4-b463-4149-bb36-dc2a4a5aabfd")
+		)
+		(pad "4" smd rect
+			(at -2.938 -1.625 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_1")
+			(pinfunction "SD0_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "ae4e877e-1c15-45cf-a739-fccd23c55a4c")
+		)
+		(pad "5" smd rect
+			(at -2.938 -0.975 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_1")
+			(pinfunction "SC0_5")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "7d847a21-12cf-4c16-8d6d-5b720c6983c8")
+		)
+		(pad "6" smd rect
+			(at -2.938 -0.325 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_2")
+			(pinfunction "SD1_6")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "35408534-a071-4bb4-b3ea-e7bf386f99b9")
+		)
+		(pad "7" smd rect
+			(at -2.938 0.325 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_2")
+			(pinfunction "SC1_7")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "91ae2724-792d-4b73-a88f-aa2930dc0226")
+		)
+		(pad "8" smd rect
+			(at -2.938 0.975 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_3")
+			(pinfunction "SD2_8")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "d31f2a1e-79fb-4085-bf08-d1ee254eb3d9")
+		)
+		(pad "9" smd rect
+			(at -2.938 1.625 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_3")
+			(pinfunction "SC2_9")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "9122cdf1-9b5f-4141-b89f-d1ba0b4e444e")
+		)
+		(pad "10" smd rect
+			(at -2.938 2.275 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_4")
+			(pinfunction "SD3_10")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "fb2aac9e-34cc-4bd0-bfbb-f0d0fae1b541")
+		)
+		(pad "11" smd rect
+			(at -2.938 2.925 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_4")
+			(pinfunction "SC3_11")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "f9ba438d-ee74-4fff-a857-5b9e57205f79")
+		)
+		(pad "12" smd rect
+			(at -2.938 3.575 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GND_12")
+			(pintype "power_in")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "00aa843e-d2d1-4b68-9e3d-4822777c73d5")
+		)
+		(pad "13" smd rect
+			(at 2.938 3.575 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_5")
+			(pinfunction "SD4_13")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "02cc5941-a460-49f4-a444-b217af185908")
+		)
+		(pad "14" smd rect
+			(at 2.938 2.925 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_5")
+			(pinfunction "SC4_14")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "e8126987-b640-493b-a3f0-647d42975777")
+		)
+		(pad "15" smd rect
+			(at 2.938 2.275 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_6")
+			(pinfunction "SD5_15")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "2ade13d5-562f-457e-a466-9e0a8699109b")
+		)
+		(pad "16" smd rect
+			(at 2.938 1.625 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_6")
+			(pinfunction "SC5_16")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "8663f5f5-b528-4ad4-806e-90288ed1fdb7")
+		)
+		(pad "17" smd rect
+			(at 2.938 0.975 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_7")
+			(pinfunction "SD6_17")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "b9630264-97df-4a2f-80bb-20809375b231")
+		)
+		(pad "18" smd rect
+			(at 2.938 0.325 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_7")
+			(pinfunction "SC6_18")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "e49a13d4-0f45-48f9-b10c-4bdf02b67f87")
+		)
+		(pad "19" smd rect
+			(at 2.938 -0.325 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SDA_8")
+			(pinfunction "SD7_19")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "25cd2731-4371-4b0b-bb8e-29214908be2d")
+		)
+		(pad "20" smd rect
+			(at 2.938 -0.975 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Time-Of-Flight sensors/SCL_8")
+			(pinfunction "SC7_20")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "2167df82-0281-468f-a43a-ab7baaac8807")
+		)
+		(pad "21" smd rect
+			(at 2.938 -1.625 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "A2_21")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "a37443a5-ef54-44e9-a8c2-8b25f827de8d")
+		)
+		(pad "22" smd rect
+			(at 2.938 -2.275 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Controller/SCL")
+			(pinfunction "SCL_22")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "3b1f58b8-349d-4645-ad8c-07cfdf15bdb7")
+		)
+		(pad "23" smd rect
+			(at 2.938 -2.925 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Controller/SDA")
+			(pinfunction "SDA_23")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "b0955bdb-39ce-4532-bb9f-96f3bffe6bd0")
+		)
+		(pad "24" smd rect
+			(at 2.938 -3.575 90)
+			(size 0.45 1.475)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+3V3")
+			(pinfunction "VCC_24")
+			(pintype "power_in")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "6f2bf6d3-60f0-42a0-bd98-d371d2458f15")
+		)
+		(embedded_fonts no)
+		(model "G:\\Documenten (niet games)\\Chunithm Controller\\chu_giga\\PCB\\chu_giga\\Extra Symbols\\SamacSys_Parts.3dshapes\\TCA9548APWR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "bd3b638d-bb6f-4311-9027-820bb615bd82")
+		(at 139.675 100.625)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R10"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "f2a60660-97db-438e-aeb8-dd0afc4fe758")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "9178d799-146d-4cf6-b97f-58b6afaa2286")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dc2ac89-ce25-484f-a9bc-639e20f16494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8733fcd5-5c55-4026-9a3e-847ad2615cc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "65593ebe-e5a5-45c6-a729-57c18cc93a8f")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "326f676e-aaa8-4ccc-8a60-d44257828236")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4e0a9679-8376-41ce-851b-a0fd4e260a62")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "185a63c4-446a-4d81-93e7-9e5e7c26237b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d122c381-829f-4693-972d-7298bf2190a4")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "b9a7aed7-6c69-4833-819b-e1f206e7b132")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_4")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "3973e8ad-27d4-41fc-9865-3def8f3344d7")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "c4e483b6-a677-4108-bcca-50bded07af7e")
+		(at 134.925 109.475)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R7"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "50aa9660-e0fd-4cb1-9e7f-9e4face09482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "a60bc0f8-e6ba-443b-a8b5-3d701d7b57f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd6675d5-7053-4492-8d09-0c3a463ddac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4e45207-36b6-45d3-9623-9c491dbd0dbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3a49c2a2-a4e9-4c18-b641-63a99370caaf")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2cd5d008-f3c2-407d-b752-34cbf70b1c99")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a021103d-70ea-4262-8abc-506439d5e7d4")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f6d0e48a-e048-4861-a7fd-f0e523ff56b9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dad29225-f4b9-453c-832f-965338d0f84c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "f677526f-4011-4afc-8ea7-5d453203db8b")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "10089ec2-bbbe-4b04-b413-358f19f1c242")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "d3049b24-3f93-49af-ada4-0d041aaae0a0")
+		(at 134.925 106.525)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R6"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "c3972c26-9f5f-44b0-9d66-efd2d475b878")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "ad85ebeb-0ff5-4fa0-bf0e-aa4e268a54c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3669d681-2cc5-4501-87a6-365c32db4601")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15f8ee48-7ef2-4a5e-a0c2-6af403bead9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "293b0023-8cc0-44d7-9daa-c3e760fb7b63")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1473cab0-11f0-4258-8f9b-d7eb96cf2f43")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "78510972-729a-4444-8a02-d3b44107d34d")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4434aa52-5fa5-4eec-b879-b0d4917000de")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7ed81b68-0afb-4447-b99a-034052b49c31")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "2311370c-68f5-47a3-b483-e1b20d999957")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_2")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "7a5dbdc1-c63c-45aa-9b4b-5922455de5fa")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "d9b1e614-3015-47dd-b317-0eda028e35ab")
+		(at 173.5 75.05)
+		(property "Reference" "TOF4"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ebf50ec7-b050-4315-9385-2c5956ec8988")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1f97f2f7-54df-43e4-a648-c8149f48ff09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c41e6a7e-1a6f-4231-b325-e5167837d078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f15062d-9f18-4968-bf1d-865106e7b526")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3533ca43-99d3-4e70-a633-c3c4df68756c")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c2e77d11-fac9-48f1-b52d-c7ec14bea477")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9dc5236d-8693-4bc4-8d77-f661d886c8d7")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "81786fb4-21a1-4d7d-becf-07cdf543ba88")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "315cc8f9-2f4c-4f2f-afe6-347be485799a")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "169a4281-7f3f-4403-ada2-54661cd6e7fd")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "39b459bd-0903-4179-b09d-89f3e33f2e9b")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ed7adaff-f7e3-4624-9974-cfe092e0d064")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "bdcfd658-c92d-42f7-8b39-807317d96d78")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "becd72a6-9c07-434e-9541-9b46ef0946db")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2da40514-d22f-48ef-b870-96293e9ec205")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4c805121-947a-4aeb-a0a1-d472fd1d1c5b")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "24961c29-6f83-493e-84b7-97ce9c587a1b")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "44831831-4b8e-4e77-9d54-7d357ac482a6")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ca63037d-d8a5-4261-8666-41690888d66f")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "358ae6ff-a201-4640-927b-c48f03d43c6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6b20ab38-04d6-4860-8a35-7e878d82e9ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "60c2efe6-3a3f-4172-b49c-de3aedd7133d")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 168.2 68.55) (xy 168.2 81.55) (xy 178.8 81.55) (xy 178.8 68.55)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "d9b4e20b-9189-40f9-8ea2-33ffa3a70f3b")
+		(at 138.4 75.05)
+		(property "Reference" "TOF1"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "46ba45f8-fe7a-4f88-bbe4-3e78eaabef8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1a9ce2e4-5f24-4baa-865f-b559cf555468")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "417f2b1e-d3bd-4043-bdb8-0a4cb8f57470")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d62106f9-3bb4-4c97-b756-8c32a5262591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "39acdd8f-f642-4c00-bc40-5e646cf5ef4c")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cf5e1de5-acf3-4fed-9e78-78dd72e2e471")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "35de4428-e26c-4533-be31-2c8ece06593f")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f75bc347-66eb-48b5-9231-36105bea94db")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c45a2111-cbb8-4a9b-91ec-7b2d6b7cd3fd")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6ca01c3b-e507-4e33-afe8-c2a8f564d71e")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6036a4b4-09dd-42ed-b542-51c350f52eaf")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0f8056a4-4b0e-4890-8a87-93090d279b7c")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "7f3e9b33-aad9-433f-9319-27e1bcc618d8")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "bf8dcac2-e7e3-402d-bf6a-a7a279a95c72")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "0d42360d-a04a-46f5-9af7-a56b98033b55")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "abf33e19-d664-4cb8-adad-d14cf84e0654")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3685ced5-058c-4714-9fae-dfc18e15a57a")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2a2f51ff-4db5-4bff-a68f-b9b5182b894b")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b8470985-61f3-45c8-86e4-c549579fb180")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ca5ba836-a2e2-41fa-a94f-bdb24e57e7b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a5e8510a-585d-4885-9a21-cea2396fe895")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "5ef9764b-8bd4-4b27-a25f-9a2fdc483fa8")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 133.1 68.55) (xy 133.1 81.55) (xy 143.7 81.55) (xy 143.7 68.55)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "e4bcd55d-93d7-4e99-9958-0231b4a6ebc2")
+		(at 125.25 120.65)
+		(property "Reference" "TOF_PAD7"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "18e0466a-a734-4c3d-a35b-f5da224c4a5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9c117974-e153-4909-a043-028e88cd660c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25d7a32e-79d3-4304-94a7-c62b6f269fbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0959c651-12b7-463c-9b0f-6a6edafff192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "580bcbed-b9db-4d6b-9b82-1135301fa165")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "bcf02797-1dd2-4dc8-9a10-48113e991b61")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "874c7a75-47bb-48a3-9bd6-bff4133dfad1")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f158724a-fb25-40ea-b710-191117628753")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9137975a-57c3-401e-a34d-4043cc249629")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "60e82bd4-108c-4df4-b2dc-1573780b4119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b95008a4-a36d-4f2f-be73-97232c3c6925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "43769eaa-ed98-46d3-9ca1-b6d8a69eefdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "85775a8d-5a14-48ef-8a7a-1479c461e814")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "8d7661b9-bdff-4e78-a998-c12b28fafe93")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "7da0992a-6ba3-45f8-b7dc-6f74fb28fad6")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_7")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "684ef0c9-6b93-4d4f-9003-5d5035890450")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_7")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "c9bb9d49-cd46-4e09-a9a5-a791ca454f17")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "3b06e128-0deb-4ed6-bff3-778567ed574e")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 124.15) (xy 118.5 117.15) (xy 132 117.15) (xy 132 124.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "e667157b-b6bf-46ee-b852-1ea1859af786")
+		(at 134.925 100.625)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R4"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "360d5689-80c4-4dc9-a6ee-0417c5493f9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "2d4f772c-17ed-4043-af48-d30e67a00be7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd1dc8a-8c9d-445b-8393-9a03c0a0492d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03b74d63-94e1-4abe-8830-29bcea419b71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7bfc9ec7-ed9b-4afd-80b9-a378e8b7fdce")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ca5b5c2a-b1e9-46e3-a41e-b359e620e9e2")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "539936a5-3457-4e0b-bbce-7f1af37b928d")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f642b106-133c-4fb1-8534-d7f2f26f6842")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f150d9dd-11dc-4b40-b821-42b512eedbc3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "12fea349-ff28-4bce-8fd6-52d63dd6d5c0")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SDA_1")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "1404fc61-a1e4-4457-a20b-227cb67d87e2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SamacSys_Parts:TMCP1E104MTRF"
+		(layer "F.Cu")
+		(uuid "e79bf325-35bd-4b8a-bad5-dc3626858fc9")
+		(at 158.55 111.695)
+		(descr "TMCP1E104MTRF-4")
+		(tags "Capacitor Polarised")
+		(property "Reference" "C17"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "21a6a3e3-e7d6-42ad-bc64-62d397139d74")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2a3b2a9d-f93a-454c-a721-4c2e3869c0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12f6cb48-8b58-493f-a617-4914f13d13da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bab0601-3a9a-4083-8e8f-c12244e32abd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.7 0)
+			(end -1.7 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0adfbd41-33d5-4429-970b-d87681498d06")
+		)
+		(fp_line
+			(start -1.6 0)
+			(end -1.6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a5cb6335-a5d4-4e84-be6e-1b7724dc45ec")
+		)
+		(fp_arc
+			(start -1.7 0)
+			(mid -1.65 -0.05)
+			(end -1.6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4d730f1-c39f-4224-89a3-729b7071473f")
+		)
+		(fp_arc
+			(start -1.6 0)
+			(mid -1.65 0.05)
+			(end -1.7 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea9f8c21-b60e-498d-8a4e-f5aed48b1c46")
+		)
+		(fp_line
+			(start -2.3 -1.625)
+			(end 2.3 -1.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d0b76c2e-e6d4-41e8-8c1e-c9256a601793")
+		)
+		(fp_line
+			(start -2.3 1.625)
+			(end -2.3 -1.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b7cd585f-bab5-4c99-aad0-4b7a8a874179")
+		)
+		(fp_line
+			(start 2.3 -1.625)
+			(end 2.3 1.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b602bd76-8722-42a7-8fce-83bc6a5eddf9")
+		)
+		(fp_line
+			(start 2.3 1.625)
+			(end -2.3 1.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32cb16c9-098b-4820-8e0e-89025175e96f")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab464a32-8bd2-4f31-b09f-5b2c4da77964")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7356cebc-4363-43aa-ac3f-c5e511fa3163")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d924e07d-d545-4850-acb5-2b6149754c18")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "091b1b11-3631-4cfe-8ac3-3b7be414faa4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c2cd4145-f968-44cc-ad66-3bc97beb0325")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.775 0)
+			(size 1.05 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "2c0ef3ae-eb36-484f-b08e-945d9ad04d88")
+		)
+		(pad "2" smd rect
+			(at 0.775 0)
+			(size 1.05 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "3f10c31e-68af-407f-9e4f-3f068ce13120")
+		)
+		(embedded_fonts no)
+		(model "G:\\Documenten (niet games)\\Chunithm Controller\\chu_giga\\PCB\\chu_giga\\Extra Symbols\\SamacSys_Parts.3dshapes\\TMCP1E104MTRF.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:ToF Wiring Pad"
+		(layer "F.Cu")
+		(uuid "e9da90f8-096d-4e43-9c7f-05f3444e6fe6")
+		(at 125.25 88.25)
+		(property "Reference" "TOF_PAD3"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8ae51851-5122-4f24-923d-5823342549b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9bf4c297-ab0f-4727-96c4-9a2dc2b33c8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3dc85bf-c67e-4bce-81c7-16f4a33b744a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38eb85b3-333b-4611-8c75-3959589a6902")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6.75 -3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2aef3b1e-62a0-411c-9a51-6a710641fe4d")
+		)
+		(fp_line
+			(start 6.75 -3.5)
+			(end -6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "137587b6-0351-4814-8be3-e47088f3b80c")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end -6.75 3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "02bd1649-0a03-4099-80f6-47aba40dea2f")
+		)
+		(fp_line
+			(start 6.75 3.5)
+			(end 6.75 -3.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "70d51e8c-f0d1-4f6d-bbdf-38426c234fd7")
+		)
+		(fp_text user "VIN"
+			(at -5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "43233bff-48f5-4b95-ae49-168ff2e35044")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "24c43343-0530-4a36-8b60-54ccb659c6d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at 1.75 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bb8b6c6d-5bd5-498a-b800-419fa10787bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at 5.25 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c9e26607-2a46-44ff-a063-e3b136e3e29f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -5.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a295dfa8-e27c-47a7-a796-9e3252362164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "VIN_1")
+			(pintype "input")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "0be23148-8d15-4f96-a5d8-69fd8118b80c")
+		)
+		(pad "2" smd roundrect
+			(at -1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "output")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "369ecacb-6e02-49dd-be89-585ce809b1b3")
+		)
+		(pad "3" smd roundrect
+			(at 1.75 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SCL_3")
+			(pinfunction "SCL_3")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "e6173b66-9daf-4d31-acb0-dbd1609638e0")
+		)
+		(pad "4" smd roundrect
+			(at 5.25 0 90)
+			(size 3 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "/Time-Of-Flight sensors/SDA_3")
+			(pinfunction "SDA_4")
+			(pintype "bidirectional")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "8b74d4bd-c7a4-4df8-b0be-c50a4b1cf8e9")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "83e44de9-d922-4a69-9d0e-42c7bcc0e77e")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 118.5 91.75) (xy 118.5 84.75) (xy 132 84.75) (xy 132 91.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "f40ddb28-4c75-47cf-8f5d-70f747d8179c")
+		(at 161.8 89.15)
+		(property "Reference" "TOF8"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1739db7d-a6e7-49dd-a53c-0a737c460acd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b657b968-1962-45c9-9ebe-a34713cb527a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2c2e657-7b21-4f6f-a106-59d1a547294d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0049baf4-e9a9-4e4e-9009-eb0b08f289f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "27d8cf49-959a-4e00-a350-0f29ef309583")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d9227335-14cf-4231-b883-387aaf97c915")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3587fedd-d1c3-4f39-bb15-639fe813db14")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5e50c8c5-a419-498c-8917-710ddad61047")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cd35247d-7a08-49e3-a12e-5bc1125dc847")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4374a369-e509-4403-a9c7-ef920d403067")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "51ea5907-60ed-4cf3-9c80-65ef6e102e4a")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6b3212fe-9b3b-4e2d-960e-867b89f83559")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9d2f51c5-905e-4762-b6fc-a9d5899ec396")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "17bb679a-1489-4a12-843b-800750132e79")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "31e05731-82f5-4f20-8444-3ee8c1f1bafa")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e5927708-591d-4f20-916b-652b61f366ee")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c7c72cde-5c9b-4aba-8a8c-54702de04f98")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "18a44250-dfc6-4f36-87fa-973c95907380")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "24972b78-da22-4a5c-a4b5-573b267e9fb6")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b411e9c7-bfd9-40df-8406-47f3be511771")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "efc3b12c-1a83-4341-9e24-2d4fe8b8f992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "f323ecd7-3e07-4410-b321-29adbe9e1c68")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 156.5 82.65) (xy 156.5 95.65) (xy 167.1 95.65) (xy 167.1 82.65)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "fb7be10f-00f0-4d4f-9dfe-d01ec6c63ad8")
+		(at 134.925 103.575)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R5"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "6835decf-bf95-434a-b1f4-732b2c8dd0d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "8970c42a-353d-4e4f-85f2-f18fa6990181")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "980f5146-b439-44fc-937a-155dfb066be3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-Down Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49621df9-c313-41a5-9835-d0d7236f0bb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f5ba82f2-7cef-483e-aef6-0baa74ab5bac")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "afd1473b-a9ac-4a6e-9da7-e54a6cb026b1")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3b53fd31-2e1a-4059-ace0-f3e2756d8345")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3ef3418b-6806-4869-884f-9dffee267af3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c0c4497e-2b78-4a48-94d6-102e446045b0")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "+3V3")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "a3a681b5-a3c0-4a61-88b9-70767e218211")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "/Time-Of-Flight sensors/SCL_2")
+			(pintype "passive")
+			(tenting
+				(front none)
+				(back none)
+			)
+			(uuid "aad9b945-520e-4ffb-9fe3-2ce4ca0267b1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "chu_giga_parts:GY530 ToF Sensor board"
+		(layer "F.Cu")
+		(uuid "ff6f89e2-994a-4060-9d46-30680020a6ba")
+		(at 161.8 75.05)
+		(property "Reference" "TOF3"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "90be3efe-8993-4fa5-8384-0bed8aa66f11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cd629366-1a88-4c24-9e91-fe9f18bb24ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc6aff8-ee4b-4ab9-8ccb-6682d9424635")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "647f4bae-43e0-407e-8158-99670457ff0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/Time-Of-Flight sensors/")
+		(sheetfile "Giga-ToF.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.3 -6.5)
+			(end 5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9535c36b-7e27-45dd-aa6b-53d839f79602")
+		)
+		(fp_line
+			(start -5.3 6.5)
+			(end -5.3 -6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "09010d2e-965f-4727-b42f-174c98b8fbef")
+		)
+		(fp_line
+			(start -0.3 -0.9)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3dfec0b0-1f8e-4144-a7f7-7c116b6881b5")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end -0.3 -3.3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "18a914fa-7dbd-4e50-891d-8cb4f0a08141")
+		)
+		(fp_line
+			(start 4.1 -3.3)
+			(end 4.1 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "dded925d-c421-49de-a351-2053bcff6367")
+		)
+		(fp_line
+			(start 4.1 -0.9)
+			(end -0.3 -0.9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "39554a26-e38e-4e6b-a616-fffd735786a7")
+		)
+		(fp_line
+			(start 5.3 -6.5)
+			(end 5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d147bcc0-77e4-48c9-9efd-5f3e06b159e9")
+		)
+		(fp_line
+			(start 5.3 6.5)
+			(end -5.3 6.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a8bec8a5-746c-4008-9167-083560263059")
+		)
+		(fp_circle
+			(center -3.7 5.2)
+			(end -3.2 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3aa00027-35d1-4eb1-b826-bdbd8a2c08cd")
+		)
+		(fp_circle
+			(center -2.7 -3.7)
+			(end -1 -3.7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c2481a58-e8db-4b41-89cd-bfebaa7f6c04")
+		)
+		(fp_circle
+			(center -1.2 5.2)
+			(end -0.7 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6837b918-ebe6-4824-ac46-ea3ddf0c8757")
+		)
+		(fp_circle
+			(center 1.3 -5.2)
+			(end 1.8 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "848c635a-6abb-46ee-bc1c-271e4107ca8f")
+		)
+		(fp_circle
+			(center 1.3 5.2)
+			(end 1.8 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "7bd03cd4-f0b0-4a2b-9bf6-0e91f69fe7b9")
+		)
+		(fp_circle
+			(center 3.8 -5.2)
+			(end 4.3 -5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "074d88dc-0967-4444-9562-47b7b95d09a3")
+		)
+		(fp_circle
+			(center 3.8 5.2)
+			(end 4.3 5.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ec2ccc83-c6c8-4713-9217-1c9e610f1231")
+		)
+		(fp_text user "IR"
+			(at 1.1 -1.4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cb2df0d7-dc9f-488b-b8cd-c94e8c513dda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 4.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "01480618-7094-44a7-8da5-af1506f8ccd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "c3cea543-cb91-4134-8a48-7c37eae08711")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 156.5 68.55) (xy 156.5 81.55) (xy 167.1 81.55) (xy 167.1 68.55)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/Part Downloads/ToF Sensor.step"
+			(offset
+				(xyz 0.5 0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

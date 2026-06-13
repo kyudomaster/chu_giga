@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SamacSys_Parts") (type "KiCad") (uri "G:/Documenten (niet games)/Chunithm Controller/chu_giga/PCB/chu_giga/Extra Symbols/SamacSys_Parts.pretty") (options "") (descr ""))
+	(lib (name "Extra Symbols") (type "KiCad") (uri "G:/Documenten (niet games)/Chunithm Controller/chu_giga/PCB/chu_giga/Extra Symbols.pretty") (options "") (descr ""))
+)

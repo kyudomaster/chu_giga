@@ -1,0 +1,262 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IN-PI42TASPRPGPB
+#/1974565/1874283/2.50/6/4/LED
+DEF IN-PI42TASPRPGPB LED 0 30 Y Y 1 F N
+F0 "LED" 1050 300 50 H V L CNN
+F1 "IN-PI42TASPRPGPB" 1050 200 50 H V L CNN
+F2 "INPI42TASPRPGPB" 1050 100 50 H I L CNN
+F3 "http://www.inolux-corp.com/datasheet/SMDLED/AddressableLED/IN-PI42TAS(X)R(X)G(X)B_v1.1.pdf" 1050 0 50 H I L CNN
+F4 "Addressable Lighting - 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 4.00mm L x 1.50mm W" 1050 -100 50 H I L CNN "Description"
+F5 "1.7" 1050 -200 50 H I L CNN "Height"
+F6 "743-IN-PI42TASPRPGPB" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Inolux/IN-PI42TASPRPGPB?qs=mAH9sUMRCttLpM33XCs9Lg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Inolux" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IN-PI42TASPRPGPB" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DIN_1 1 0 0 200 R 50 50 0 0 P
+X VDD 2 0 -100 200 R 50 50 0 0 P
+X DOUT 3 0 -200 200 R 50 50 0 0 P
+X GND_1 4 0 -300 200 R 50 50 0 0 P
+X DIN_2 5 1200 0 200 L 50 50 0 0 P
+X GND_2 6 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RMCF0603FT5K10
+#/1941666/1874283/2.50/2/2/Resistor
+DEF RMCF0603FT5K10 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RMCF0603FT5K10" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 550 -50 50 H I L CNN
+F4 "RES, 0603, 5.1 Kohm, 1%, 0.1W" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Stackpole Electronics, Inc." 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RMCF0603FT5K10" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TCA9548APWR
+#/300912/1874283/2.50/24/3/Integrated Circuit
+DEF TCA9548APWR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TCA9548APWR" 1050 200 50 H V L CNN
+F2 "SOP65P640X120-24N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" 1050 0 50 H I L CNN
+F4 "TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24" 1050 -100 50 H I L CNN "Description"
+F5 "1.2" 1050 -200 50 H I L CNN "Height"
+F6 "595-TCA9548APWR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCA9548APWR?qs=iFaFN7AS2WF%252BqSiJMbdYwQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TCA9548APWR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A0 1 0 0 200 R 50 50 0 0 P
+X A1 2 0 -100 200 R 50 50 0 0 P
+X ~RESET 3 0 -200 200 R 50 50 0 0 P
+X SD0 4 0 -300 200 R 50 50 0 0 P
+X SC0 5 0 -400 200 R 50 50 0 0 P
+X SD1 6 0 -500 200 R 50 50 0 0 P
+X SC1 7 0 -600 200 R 50 50 0 0 P
+X SD2 8 0 -700 200 R 50 50 0 0 P
+X SC2 9 0 -800 200 R 50 50 0 0 P
+X SD3 10 0 -900 200 R 50 50 0 0 P
+X SC3 11 0 -1000 200 R 50 50 0 0 P
+X GND 12 0 -1100 200 R 50 50 0 0 P
+X VCC 24 1200 0 200 L 50 50 0 0 P
+X SDA 23 1200 -100 200 L 50 50 0 0 P
+X SCL 22 1200 -200 200 L 50 50 0 0 P
+X A2 21 1200 -300 200 L 50 50 0 0 P
+X SC7 20 1200 -400 200 L 50 50 0 0 P
+X SD7 19 1200 -500 200 L 50 50 0 0 P
+X SC6 18 1200 -600 200 L 50 50 0 0 P
+X SD6 17 1200 -700 200 L 50 50 0 0 P
+X SC5 16 1200 -800 200 L 50 50 0 0 P
+X SD5 15 1200 -900 200 L 50 50 0 0 P
+X SC4 14 1200 -1000 200 L 50 50 0 0 P
+X SD4 13 1200 -1100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TMCP1E104MTRF
+#/4210975/1874283/2.50/2/3/Capacitor Polarised
+DEF TMCP1E104MTRF C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "TMCP1E104MTRF" 350 150 50 H V L CNN
+F2 "TMCP1E104MTRF" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TMCP1E104MTRF.pdf" 350 -50 50 H I L CNN
+F4 "Tantalum Capacitors - Solid SMD 25volts 0.10uF 20% Molded Case, 0805" 350 -150 50 H I L CNN "Description"
+F5 "1.2" 350 -250 50 H I L CNN "Height"
+F6 "74-TMCP1E104MTRF" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/TMCP1E104MTRF?qs=WatphXlIDny%2FiZVaFCSmDw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "TMCP1E104MTRF" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1775469-6
+#/11377987/1874283/2.50/8/2/Connector
+DEF 1775469-6 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1775469-6" 750 200 50 H V L CNN
+F2 "17754696" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773713-2_HPI_QRG_EN&DocType=Data+Sheet&DocLang=English&PartCntxt=1775469-6&DocFormat=pdf" 750 0 50 H I L CNN
+F4 "HPI CONN., 2.0MM, R/A, SMT, 6P, 80U\"" 750 -100 50 H I L CNN "Description"
+F5 "5.65" 750 -200 50 H I L CNN "Height"
+F6 "571-1775469-6" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1775469-6?qs=fvVej%2FMj3jdloY%252BWA3Jd%2Fw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1775469-6" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X MP1 MP1 900 0 200 L 50 50 0 0 P
+X MP2 MP2 900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1775469-5
+#/950119/1874283/2.50/7/2/Connector
+DEF 1775469-5 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1775469-5" 750 200 50 H V L CNN
+F2 "17754695" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1775469&DocType=Customer+Drawing&DocLang=English" 750 0 50 H I L CNN
+F4 "Connector Header Surface Mount, Right Angle 5 position 0.079\" (2.00mm)" 750 -100 50 H I L CNN "Description"
+F5 "5.75" 750 -200 50 H I L CNN "Height"
+F6 "571-1775469-5" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1775469-5?qs=fvVej%2FMj3jdVZGysIfDZdQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1775469-5" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X MP1 6 900 0 200 L 50 50 0 0 P
+X MP2 7 900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 640455-6
+#/676369/1874283/2.50/6/3/Connector
+DEF 640455-6 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "640455-6" 650 200 50 H V L CNN
+F2 "SHDRRA6W88P0X254_1X6_1524X254X610P" 650 100 50 H I L CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640455&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=640455-6" 650 0 50 H I L CNN
+F4 "Connector, header TE Connectivity MTA-100 Series, 2.54mm Pitch 6 Way 1 Row Right Angle PCB Header, Through Hole, Solder Termination" 650 -100 50 H I L CNN "Description"
+F5 "6.1" 650 -200 50 H I L CNN "Height"
+F6 "571-6404556" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/640455-6?qs=%2F35zJ5USjokIauqXdzyPIA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "640455-6" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 640455-5
+#/255135/1874283/2.50/5/4/Connector
+DEF 640455-5 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "640455-5" 650 200 50 H V L CNN
+F2 "HDRRA5W88P0X254_1X5_1270X775X610P" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640455&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=640455-5" 650 0 50 H I L CNN
+F4 "TE Connectivity MTA-100, 5 Way, 1 Row, Right Angle PCB Header" 650 -100 50 H I L CNN "Description"
+F5 "6.1" 650 -200 50 H I L CNN "Height"
+F6 "571-6404555" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/640455-5?qs=X1mjqRbeMc5kyjdl11VSpA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "640455-5" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 640455-4
+#/253111/1874283/2.50/4/4/Connector
+DEF 640455-4 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "640455-4" 650 200 50 H V L CNN
+F2 "6404554" 650 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/026c3cd0b0502e136d8f710884f70c3e.pdf" 650 0 50 H I L CNN
+F4 "TE Connectivity MTA-100, 2.54mm Pitch, 4 Way, 1 Row, Right Angle PCB Header, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "5.72" 650 -200 50 H I L CNN "Height"
+F6 "571-6404554" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/640455-4?qs=%2F35zJ5USjolIN5b4JrZGlg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "640455-4" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

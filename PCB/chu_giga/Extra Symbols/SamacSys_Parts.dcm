@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP IN-PI42TASPRPGPB
+D Addressable Lighting - 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 4.00mm L x 1.50mm W
+K
+F http://www.inolux-corp.com/datasheet/SMDLED/AddressableLED/IN-PI42TAS(X)R(X)G(X)B_v1.1.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT5K10
+D RES, 0603, 5.1 Kohm, 1%, 0.1W
+K
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP TCA9548APWR
+D TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24
+K
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TMCP1E104MTRF
+D Tantalum Capacitors - Solid SMD 25volts 0.10uF 20% Molded Case, 0805
+K
+F https://componentsearchengine.com/Datasheets/1/TMCP1E104MTRF.pdf
+$ENDCMP
+#
+$CMP 1775469-6
+D HPI CONN., 2.0MM, R/A, SMT, 6P, 80U"
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773713-2_HPI_QRG_EN&DocType=Data+Sheet&DocLang=English&PartCntxt=1775469-6&DocFormat=pdf
+$ENDCMP
+#
+$CMP 1775469-5
+D Connector Header Surface Mount, Right Angle 5 position 0.079" (2.00mm)
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1775469&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP 640455-6
+D Connector, header TE Connectivity MTA-100 Series, 2.54mm Pitch 6 Way 1 Row Right Angle PCB Header, Through Hole, Solder Termination
+K
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640455&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=640455-6
+$ENDCMP
+#
+$CMP 640455-5
+D TE Connectivity MTA-100, 5 Way, 1 Row, Right Angle PCB Header
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640455&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=640455-5
+$ENDCMP
+#
+$CMP 640455-4
+D TE Connectivity MTA-100, 2.54mm Pitch, 4 Way, 1 Row, Right Angle PCB Header, Through Hole
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/026c3cd0b0502e136d8f710884f70c3e.pdf
+$ENDCMP
+#
+#End Doc Library

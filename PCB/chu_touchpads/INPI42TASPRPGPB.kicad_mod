@@ -1,0 +1,257 @@
+(footprint "INPI42TASPRPGPB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "IN-PI42TASPRPGPB")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ead89c02-3649-441f-bc02-7cf7048d3d2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "INPI42TASPRPGPB"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d2af37c5-fc3c-4397-964e-79679946baa5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d401e9d-5031-4ae5-938c-1ef1f5ef6ee3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ce79ac9-b69f-4a39-9b94-b3f164ef1ff5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.7 0)
+		(end -2.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9c77487-edfe-483b-8ec1-d027faba0889")
+	)
+	(fp_line
+		(start -2.6 0)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a05cf47-735f-478e-9df0-1cf752e3fbba")
+	)
+	(fp_line
+		(start -2 -1.143)
+		(end 2 -1.143)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f63c481-15c4-493c-bbc6-e5d4689be62e")
+	)
+	(fp_line
+		(start -2 1)
+		(end 2 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42cfaa6b-2133-4cba-84f6-d05a2a3d0021")
+	)
+	(fp_arc
+		(start -2.7 0)
+		(mid -2.65 -0.05)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "023c4dbc-83ac-4932-abce-221a0d76da94")
+	)
+	(fp_arc
+		(start -2.6 0)
+		(mid -2.65 0.05)
+		(end -2.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7121ebc9-4c1f-45e9-92bd-a8255d3f2006")
+	)
+	(fp_line
+		(start -3 -1.7)
+		(end 3 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e033a062-c3e9-4159-bb93-cdc89ffd0e5a")
+	)
+	(fp_line
+		(start -3 1.7)
+		(end -3 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c933224-c8ab-42fb-92f8-eca403e8769d")
+	)
+	(fp_line
+		(start 3 -1.7)
+		(end 3 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28ffdfb8-376a-48b2-858c-c966a83993a4")
+	)
+	(fp_line
+		(start 3 1.7)
+		(end -3 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "006b1120-1d15-4dae-b83d-53742a00425c")
+	)
+	(fp_line
+		(start -2 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6a81103-c42e-461e-90bf-e1b6f9f023af")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f06ae780-6e12-4a8c-958f-41d0622ea0f3")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96eb8c3d-f4fa-4d13-bb9a-58c944cb6de9")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65d4f90b-e6f9-4cfb-a8fc-fc65972e1a2b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9dd0057c-ba28-4f45-af56-5541918414d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.574999 -0.062501)
+		(size 0.549998 1.398998)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0e67485-9426-4a66-8474-fedb8830f9e9")
+	)
+	(pad "2" smd rect
+		(at -0.438997 -0.056776)
+		(size 0.722002 1.387548)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2d8ef96-895b-461b-aacb-1d830cdef2e6")
+	)
+	(pad "3" smd rect
+		(at 0.575 -0.062501)
+		(size 0.45 1.398998)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f37dd90e-5d0a-40ee-b245-043949b91776")
+	)
+	(pad "4" smd rect
+		(at 1.575 -0.0625)
+		(size 0.55 1.399)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d760d38-7e3a-4d29-adf2-564f34672955")
+	)
+	(pad "5" smd rect
+		(at -2.075 -0.037)
+		(size 0.45 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "099f6424-668b-43f5-91a6-aea48f45785a")
+	)
+	(pad "6" smd rect
+		(at 2.075 -0.037)
+		(size 0.45 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8bbd49b-273b-47b4-9ef0-a03b9b2f79f7")
+	)
+	(embedded_fonts no)
+	(model "G:\\Documenten (niet games)\\Chunithm Controller\\chu_giga\\PCB\\chu_giga\\Extra Symbols\\SamacSys_Parts.3dshapes\\IN-PI42TASPRPGPB.stp"
+		(offset
+			(xyz 0 -0.6700000066 0.7999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

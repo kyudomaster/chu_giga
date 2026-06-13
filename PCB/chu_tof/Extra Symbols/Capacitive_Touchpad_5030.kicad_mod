@@ -1,0 +1,82 @@
+(footprint "Capacitive_Touchpad_5030"
+	(version 20260101)
+	(generator "pcbnew")
+	(generator_version "9.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cd9f4d5b-fa32-4eaa-9463-e1fd2bbf22bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Capacitive Touchpad"
+		(at 0 -28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "25d56b8c-4f43-43ac-9104-b2e2e470355a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bb7be68-410e-4c05-b665-045a5ef2335f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c7afe33-e21e-433d-882a-7be41b97354c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "KEY"
+		(at 0 -26 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "255d9aed-3245-447f-9108-9acba15c70c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 30 49.6)
+		(layers "F.Cu")
+		(roundrect_rratio 0.02)
+		(tenting
+			(front none)
+			(back none)
+		)
+		(uuid "7f61923c-699a-4b47-8ad3-137a9e888c75")
+	)
+	(embedded_fonts no)
+)
