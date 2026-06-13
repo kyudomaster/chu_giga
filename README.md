@@ -112,3 +112,4 @@ Responsibilities include:
 ## Documentation
 
 The documentation is organized into the separate major components and build, assembly and installation guides.
+You can find said documentation in the [`docs`](docs/Introduction.md)
