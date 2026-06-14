@@ -31,6 +31,7 @@ There is no firmware for LEDs or actual input handling yet.
 We only figured out that we need our own `chuniio.dll` today.
 
 ### CAD
+
 ![10%](https://progress-bar.xyz/10?title=CAD)
 There is a first version of the LGP panel for the slider, but nothing has been made or tested yet.
 The actual case and other components also do not exist yet.
