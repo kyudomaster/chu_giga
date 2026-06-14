@@ -10,7 +10,7 @@ Documentation describing how the system is designed.
 
 - [System Overview](Architecture/System_Overview.md)
 - [Firmware Architecture](Architecture/Firmware_Architecture.md)
-- [PC_Communication](Architecture/PC_Communication.md)
+- [PC Communication](Architecture/PC_Communication.md)
 - [Controller State](Architecture/Controller_State.md)
 
 ## Hardware
@@ -43,7 +43,7 @@ Documentation describing the RP2040 based firmware.
 
 Documentation describing the PC-side software.
 
-- [chuniio.dll](Software/chuniio_DLL.md)
+- [`chuniio.dll`](Software/chuniio_DLL.md)
 - [Configuration tool](Software/Configuration_Tool.md)
 
 ## Build Guide
