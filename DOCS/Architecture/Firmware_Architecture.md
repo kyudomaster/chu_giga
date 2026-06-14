@@ -40,3 +40,5 @@ Different communication layers may expose this state as a Chunithm-specific devi
 Chunithm itself only requires 32 Zones and 6 Air zones. But with our hardware, it's possible to measure when we are between touch zones on the PCB too... , meaning we can have up to 93 touch zones and a free moving air zone. (With both height and X-location information.)
 
 Regardless, the state should contain information about which of the utility buttons are pressed, and which ground and air zones are touched.
+
+The controller state is independent from any communication protocol. Multiple communication interfaces may expose the same state simultaneously, allowing compatibility with different software without changing firmware configuration.

@@ -8,3 +8,11 @@ sdfghjkl mapping to four touch zones on the slider each and space to all IR leds
 A custom chuniio can be made depending on a controller which will handle communication between the game and the controller. (The raspberry pi pico in this case)
 
 This `.dll` will check what the current state of the pico is. (buttons pressed... slider touched... airstrings played)
+
+## Outputs
+
+There are 3 different output types currently implemented in the controller.
+
+One with an accompanying `chuniio.dll` for the arcade dumps.
+One Game controller with axes etc.
+One NKRO Keyboard.
