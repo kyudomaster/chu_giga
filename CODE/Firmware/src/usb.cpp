@@ -1,5 +1,7 @@
 #include "usb.h"
 
+#include "defs.h"
+
 #include "air.h"
 
 chu_usb::chu_usb(chu_air& air)
@@ -10,12 +12,16 @@ chu_usb::chu_usb(chu_air& air)
 }
 
 void chu_usb::setup() {
+#if USE_SERIAL
     Serial.println("[chu_usb] setup");
+#endif
 
     if (!_hid.begin()) {
+#if USE_SERIAL
         Serial.println("[chu_usb] Failed to start HID device");
     } else {
         Serial.println("[chu_usb] Started HID device");
+#endif
     }
 
     _air.setup();

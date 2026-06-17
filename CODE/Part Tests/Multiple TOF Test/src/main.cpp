@@ -6,7 +6,7 @@
  * =====================================
  */
 
-# define TCAADDR 0x71 // or 0x71 for the other ToF board.
+# define TCAADDR 0x70 // or 0x71 for the other ToF board.
 
 VL53L0X sensor[6]; // Declare there are 6 sensors. (Current board only has 1-5 not 0)
 

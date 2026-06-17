@@ -1,25 +1,25 @@
 #include <Wire.h>
 
+#include "defs.h"
 #include "usb.h"
 #include "air.h"
 
-#define REPORT_RATE 1000
-#define REPORT_RATE_US (1'000'000 / REPORT_RATE)
+static constexpr size_t REPORT_RATE = 1000;
+static constexpr size_t REPORT_RATE_US = 1'000'000 / REPORT_RATE;
 
-#define TCAADDR 0x71 // or 0x70 for the other ToF board.
-
-static chu_air air { TCAADDR };
+static chu_air air;
 static chu_usb usb_hid { air };
 
 void setup() {
+#if USE_SERIAL
+    Serial.begin(115200);
+    while (!Serial) { }
+#endif
+
     Wire.setSDA(16);
     Wire.setSCL(17);
     Wire.begin();
 
-    // Serial.begin(115200);
-    // while (!Serial) { }
-
-    //Serial.println("Setting up USB HID");
     usb_hid.setup();
 
     // Emulate same device RedBoard expects
