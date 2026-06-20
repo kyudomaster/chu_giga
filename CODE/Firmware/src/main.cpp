@@ -3,12 +3,14 @@
 #include "defs.h"
 #include "usb.h"
 #include "air.h"
+#include "slider.h"
 
 static constexpr size_t REPORT_RATE = 1000;
 static constexpr size_t REPORT_RATE_US = 1'000'000 / REPORT_RATE;
 
 static chu_air air;
-static chu_usb usb_hid { air };
+static chu_slider slider;
+static chu_usb usb_hid { air, slider };
 
 void setup() {
 #if USE_SERIAL

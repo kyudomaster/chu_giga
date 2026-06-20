@@ -3,9 +3,11 @@
 #include "defs.h"
 
 #include "air.h"
+#include "slider.h"
 
-chu_usb::chu_usb(chu_air& air)
-    : _air { air } {
+chu_usb::chu_usb(chu_air& air, chu_slider& slider)
+    : _air { air }
+    , _slider { slider } {
     _hid.setPollInterval(1);
     _hid.setReportDescriptor(desc_hid_report, sizeof(desc_hid_report));
     _hid.setStringDescriptor("chu_gamepad");
@@ -25,6 +27,7 @@ void chu_usb::setup() {
     }
 
     _air.setup();
+    _slider.setup();
 }
 
 bool chu_usb::ready() {
@@ -34,6 +37,7 @@ bool chu_usb::ready() {
 bool chu_usb::tick() {
     _update_buttons();
     _report.air = _air.tick();
+    _report.slider = _slider.tick();
 
     return _send_report();
 }

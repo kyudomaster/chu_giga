@@ -43,10 +43,11 @@ constexpr uint8_t desc_hid_report[] {
 };
 
 class chu_air;
+class chu_slider;
 
 class chu_usb {
     public:
-    chu_usb(chu_air& air);
+    chu_usb(chu_air& air, chu_slider& slider);
 
     void setup();
 
@@ -56,6 +57,8 @@ class chu_usb {
 
     private:
     chu_air& _air;
+    chu_slider& _slider;
+    
     report_data _report{};
     Adafruit_USBD_HID _hid;
 

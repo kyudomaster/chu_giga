@@ -1,3 +1,3 @@
 #pragma once
 
-#define USE_SERIAL 1
+#define USE_SERIAL 0

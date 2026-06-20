@@ -36,7 +36,7 @@ uint8_t chu_air::tick() {
 
 #if USE_SERIAL
     static int tick_n = 0;
-    const bool should_print = tick_n % 1000 == 0;
+    const bool should_print = tick_n % 100 == 0;
     
     if (should_print)
         Serial.printf("[chu_air] Distances:\n");
@@ -55,10 +55,7 @@ uint8_t chu_air::tick() {
             } else if (should_print) {
                 Serial.printf("    [%02d] -> %hu mm\n", i, dist);
             }
-        } else {
-            Serial.printf("[chu_air] Channel %i timed out after %hu\n", i, sensor.getTimeout());
-        }
-        
+        }        
 #endif
 
         if (dist > AIR_OFFSET && dist < (AIR_OFFSET + (AIR_STEP * 6))) {
@@ -71,9 +68,9 @@ uint8_t chu_air::tick() {
     }
 
 #if USE_SERIAL
-    if (should_print)
+    if (should_print) {
         Serial.printf("    Min distance of %hu mm over %zu sensors\n", min_distance, count_in_range);
-    
+    }
         ++tick_n;
 #endif
 
