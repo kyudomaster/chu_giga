@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -15191,7 +15190,7 @@
 			(uuid "f1f03d5a-4c2e-48a2-b494-4f523ece891c")
 		)
 		(fp_text user "GND"
-			(at -7 16 -90)
+			(at -7 16 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "96da4286-4805-465c-b744-193a8b165cb1")
@@ -15402,17 +15401,6 @@
 			(uuid "6f9d0e36-bcef-47ef-9a43-1e6512249715")
 		)
 		(embedded_fonts no)
-		(model "G:/Documenten (niet games)/Chunithm Controller/chu_pico-main/PCB/main/3dmodels/ImageToStl.com_mpr121_breakout_v13.wrl"
-			(offset
-				(xyz -15.25 19 1)
-			)
-			(scale
-				(xyz 0.395 0.395 0.395)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
 	)
 	(footprint "SamacSys_Parts:SHDRRA6W88P0X254_1X6_1524X254X610P"
 		(layer "B.Cu")
@@ -16263,7 +16251,7 @@
 			(uuid "5ba5706e-8334-4ee7-92d3-e673483bfdc7")
 		)
 		(fp_text user "GND"
-			(at -7 16 -90)
+			(at -7 16 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "4c3a3625-a240-4441-be37-20ea041da776")
@@ -16474,17 +16462,6 @@
 			(uuid "4c08bc26-bb34-4196-a626-43bc9c2cc709")
 		)
 		(embedded_fonts no)
-		(model "G:/Documenten (niet games)/Chunithm Controller/chu_pico-main/PCB/main/3dmodels/ImageToStl.com_mpr121_breakout_v13.wrl"
-			(offset
-				(xyz -15.25 19 1)
-			)
-			(scale
-				(xyz 0.395 0.395 0.395)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
 	)
 	(footprint "chu_giga_parts:MPR121_BOARD"
 		(layer "B.Cu")
@@ -16560,7 +16537,7 @@
 			(uuid "de12ffe9-b41d-4288-94c0-a8df4207d3f6")
 		)
 		(fp_text user "GND"
-			(at -7 16 -90)
+			(at -7 16 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "bcec92b6-5eaf-44c5-bad3-76184aa1b3c2")
@@ -16771,17 +16748,6 @@
 			(uuid "906e8c59-e0ab-4319-8d16-71ece529bf4f")
 		)
 		(embedded_fonts no)
-		(model "G:/Documenten (niet games)/Chunithm Controller/chu_pico-main/PCB/main/3dmodels/ImageToStl.com_mpr121_breakout_v13.wrl"
-			(offset
-				(xyz -15.25 19 1)
-			)
-			(scale
-				(xyz 0.395 0.395 0.395)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
