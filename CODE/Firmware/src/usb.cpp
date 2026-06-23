@@ -43,7 +43,7 @@ bool chu_usb::tick() {
 }
 
 void chu_usb::_update_buttons() {
-    _report.buttons += 1;
+    // _report.buttons += 1;
 }
 
 bool chu_usb::_send_report() {
