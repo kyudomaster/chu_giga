@@ -9,8 +9,8 @@ static constexpr size_t TOF_BOARDS = 2;
 static constexpr size_t TOF_COUNT = 6;
 static constexpr size_t TOF_TOTAL = TOF_BOARDS * TOF_COUNT;
 
-static constexpr uint16_t AIR_OFFSET = 172;
-static constexpr uint16_t AIR_STEP = 32;
+static constexpr uint16_t AIR_OFFSET = 150; // 172 Arcade value
+static constexpr uint16_t AIR_STEP = 30; // 32 Arcade value
 
 class chu_air {
     public:

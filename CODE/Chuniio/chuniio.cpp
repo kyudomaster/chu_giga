@@ -5,6 +5,7 @@
 #include <string>
 #include <format>
 #include <thread>
+#include <array>
 
 void message(const std::wstring& msg) {
     MessageBox(
@@ -38,6 +39,7 @@ void chuni_io_jvs_poll(uint8_t* opbtn, uint8_t* beams) {
         *opbtn |= 0b10; /* Service */
     }
 
+    *beams = (1 << hid.air()) >> 1;
 }
 
 void chuni_io_jvs_read_coin_counter(uint16_t* out) {
@@ -66,16 +68,20 @@ static std::thread poll_thread;
 void chuni_io_slider_start(chuni_io_slider_callback_t callback) {
     should_stop = false;
     poll_thread = std::thread([callback] {
-        uint8_t dummy[32]{};
-
-        for (size_t i = 0; i < 32; ++i) {
-            if (i % 2 == 0) {
-                dummy[i] = 50;
-            }
-        }
+        std::array<uint8_t, 32> data{};
 
         while (!should_stop) {
-            callback(dummy);
+            uint32_t slider = hid.slider();
+
+            for (size_t i = 0; i < data.size(); ++i) {
+                if (slider & (uint32_t{ 1 } << i)) {
+                    data[i] = 128;
+                } else {
+                    data[i] = 0;
+                }
+            }
+
+            callback(data.data());
             std::this_thread::sleep_for(std::chrono::milliseconds(1));
         }
     });

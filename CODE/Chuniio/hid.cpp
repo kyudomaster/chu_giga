@@ -66,6 +66,10 @@ chu_hid::~chu_hid() {
 }
 
 bool chu_hid::init() {
+    if (_initialized) {
+        return true;
+    }
+
     GUID hidclass_guid = GUID_DEVCLASS_HIDCLASS;
 
     auto path = get_chuni_device_path();
@@ -87,6 +91,19 @@ bool chu_hid::init() {
         return false;
     }
 
+    _usb_thread = std::thread([this] {
+        report_data report;
+        while (!_stop_thread) {
+            if (!read_report(report)) {
+                break;
+            }
+
+            _report = report;
+        }
+    });
+
+    _initialized = true;
+
     return true;
 }
 
@@ -98,4 +115,12 @@ bool chu_hid::read_report(report_data& res) {
     }
 
     return read == sizeof(report_data);
+}
+
+uint32_t chu_hid::slider() const {
+    return _report.load().slider;
+}
+
+uint8_t chu_hid::air() const {
+    return _report.load().air;
 }

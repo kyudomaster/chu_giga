@@ -58,7 +58,7 @@ uint8_t chu_air::tick() {
         }        
 #endif
 
-        if (dist > AIR_OFFSET && dist < (AIR_OFFSET + (AIR_STEP * 6))) {
+        if (dist > AIR_OFFSET && dist < (AIR_OFFSET + (AIR_STEP * 6) + (AIR_STEP * 3))) {
             ++count_in_range;
 
             if (dist < min_distance) {
@@ -78,7 +78,9 @@ uint8_t chu_air::tick() {
         return 0;
     }
 
-    return (min_distance - AIR_OFFSET + AIR_STEP - 1) / AIR_STEP;
+    uint8_t height = (min_distance - AIR_OFFSET + AIR_STEP - 1) / AIR_STEP;
+
+    return (height > 6) ? 6 : height;
 }
 
 VL53L0X& chu_air::_select_sensor(uint8_t ch) {
