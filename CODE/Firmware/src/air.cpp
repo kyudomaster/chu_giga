@@ -32,15 +32,7 @@ void chu_air::setup() {
 }
 
 uint8_t chu_air::tick() {
-    uint16_t min_distance = 0xFFFF;
-
-#if USE_SERIAL
-    static int tick_n = 0;
-    const bool should_print = tick_n % 100 == 0;
-    
-    if (should_print)
-        Serial.printf("[chu_air] Distances:\n");
-#endif
+    uint8_t res = 0;
 
     size_t count_in_range = 0;
     for (size_t i = 0; i < _sensors.size(); ++i) {
@@ -48,39 +40,14 @@ uint8_t chu_air::tick() {
 
         uint16_t dist = sensor.readRangeContinuousMillimeters();
 
-#if USE_SERIAL
-        if (should_print) {
-            if (sensor.timeoutOccurred()) {
-                Serial.printf("    [%02d] -> Timed out\n", i);
-            } else if (should_print) {
-                Serial.printf("    [%02d] -> %hu mm\n", i, dist);
-            }
-        }        
-#endif
-
         if (dist > AIR_OFFSET && dist < (AIR_OFFSET + (AIR_STEP * 6) + (AIR_STEP * 3))) {
-            ++count_in_range;
-
-            if (dist < min_distance) {
-                min_distance = dist;
-            }
+            uint8_t height = (dist - AIR_OFFSET + AIR_STEP - 1) / AIR_STEP;
+            
+            res |= (1 << (height - 1));
         }
     }
 
-#if USE_SERIAL
-    if (should_print) {
-        Serial.printf("    Min distance of %hu mm over %zu sensors\n", min_distance, count_in_range);
-    }
-        ++tick_n;
-#endif
-
-    if (count_in_range < 2 || min_distance == 0xFFFF) {
-        return 0;
-    }
-
-    uint8_t height = (min_distance - AIR_OFFSET + AIR_STEP - 1) / AIR_STEP;
-
-    return (height > 6) ? 6 : height;
+    return res;
 }
 
 VL53L0X& chu_air::_select_sensor(uint8_t ch) {

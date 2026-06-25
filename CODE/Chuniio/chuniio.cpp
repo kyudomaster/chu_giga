@@ -39,20 +39,21 @@ void chuni_io_jvs_poll(uint8_t* opbtn, uint8_t* beams) {
         *opbtn |= 0b10; /* Service */
     }
 
-    *beams = (1 << hid.air()) >> 1;
+    *beams = hid.air();
 }
 
+static bool pressed = false;
+static uint16_t coins = 0;
+
 void chuni_io_jvs_read_coin_counter(uint16_t* out) {
-    static uint16_t coins = 0;
-    static bool inserted = false;
-    
-    if (GetAsyncKeyState(VK_F3) < 0) {
-        if (!inserted) {
-            inserted = true;
-            ++coins;
+    if (GetAsyncKeyState(VK_F3)) {
+        if (!pressed) {
+            pressed = true;
+            coins += 1;
         }
     } else {
-        inserted = false;
+        /* Released */
+        pressed = false;
     }
 
     *out = coins;
